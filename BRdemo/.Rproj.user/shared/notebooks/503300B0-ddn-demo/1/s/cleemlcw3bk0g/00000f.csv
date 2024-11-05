@@ -1,0 +1,4 @@
+"0","rm(list=ls()) # cleans memory"
+"0",""
+"0","load(""Mixed.SVM-main/data/processed/example.RData"")"
+"0",""

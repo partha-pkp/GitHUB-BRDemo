@@ -1,0 +1,191 @@
+"0","pacman::p_load(""statmod"",
+""mvtnorm"",
+""Matrix"", 
+""splines"",
+""xtable"",
+""IRdisplay"",
+""repr"",
+""plotly"",
+""extrafont"",
+""ggplot2"",
+""gridExtra"",
+""grid"",
+""table1"",
+""coda"",
+""rstan"")
+"
+"2","Installing package into ‘C:/Users/Partha/AppData/Local/R/win-library/4.4’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘numDeriv’, ‘abind’, ‘tensorA’, ‘distributional’, ‘checkmate’, ‘matrixStats’, ‘posterior’, ‘StanHeaders’, ‘inline’, ‘RcppParallel’, ‘loo’, ‘QuickJSR’, ‘RcppEigen’, ‘BH’
+
+"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.4/PACKAGES'"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/numDeriv_2016.8-1.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 117304 bytes (114 KB)
+"
+"2","downloaded 114 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/abind_1.4-8.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 67211 bytes (65 KB)
+"
+"2","downloaded 65 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/tensorA_0.36.2.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 227784 bytes (222 KB)
+"
+"2","downloaded 222 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/distributional_0.5.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 486029 bytes (474 KB)
+"
+"2","downloaded 474 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/checkmate_2.3.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 749709 bytes (732 KB)
+"
+"2","downloaded 732 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/matrixStats_1.4.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 547174 bytes (534 KB)
+"
+"2","downloaded 534 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/posterior_1.6.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1038778 bytes (1014 KB)
+"
+"2","downloaded 1014 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/StanHeaders_2.32.10.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3174376 bytes (3.0 MB)
+"
+"2","downloaded 3.0 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/inline_0.3.19.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 132052 bytes (128 KB)
+"
+"2","downloaded 128 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/RcppParallel_5.1.9.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1295562 bytes (1.2 MB)
+"
+"2","downloaded 1.2 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/loo_2.8.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1889547 bytes (1.8 MB)
+"
+"2","downloaded 1.8 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/QuickJSR_1.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1278836 bytes (1.2 MB)
+"
+"2","downloaded 1.2 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/RcppEigen_0.3.4.0.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2592560 bytes (2.5 MB)
+"
+"2","downloaded 2.5 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/BH_1.84.0-0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 21468602 bytes (20.5 MB)
+"
+"2","downloaded 20.5 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/rstan_2.32.6.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2695706 bytes (2.6 MB)
+"
+"2","downloaded 2.6 MB
+
+"
+"1","package ‘numDeriv’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘abind’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘tensorA’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘distributional’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘checkmate’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘matrixStats’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘posterior’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘StanHeaders’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘inline’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘RcppParallel’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘loo’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘QuickJSR’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘BH’ successfully unpacked and MD5 sums checked
+"
+"1","package ‘rstan’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\Partha\AppData\Local\Temp\RtmpWIZQqs\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+rstan installed
+"
