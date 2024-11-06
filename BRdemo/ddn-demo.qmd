@@ -1,6 +1,6 @@
 ---
 title: "Implementing the daily-drinking-notebook"
-<!-- --- -->
+---
 
 
 ## Setting up 
